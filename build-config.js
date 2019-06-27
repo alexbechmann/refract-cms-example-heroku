@@ -1,5 +1,4 @@
 const merge = require('webpack-merge');
-const path = require('path');
 
 module.exports = ({ webpackConfig, target }) => {
   return merge(webpackConfig, {

@@ -1,8 +1,13 @@
 # Refract-CMS CLI Example
 
+## Deploy to Heroku
+
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-## Setup docker
+## Run locally
+
+### Setup docker
 
 Start a mongo process in the background using docker:
 
@@ -10,14 +15,14 @@ Start a mongo process in the background using docker:
 docker-compose up -d
 ```
 
-## Start Refract-CMS
+### Start Refract-CMS
 
 ```
 npm install
 npm start
 ```
 
-## Development links
+### Development links
 
 | Name               | Url                                            |
 | ------------------ | ---------------------------------------------- |
@@ -25,12 +30,3 @@ npm start
 | GraphiQL           | <http://localhost:3000/cms/graphql>            |
 | GraphQL Playground | <http://localhost:3000/cms/graphql-playground> |
 | Mongo Express      | <http://localhost:8081>                        |
-
-## Deploy to Heroku
-
-```
-heroku create
-git push heroku master
-heroku ps:scale web=1
-heroku open
-```

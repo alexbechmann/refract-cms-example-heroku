@@ -1,17 +1,7 @@
-import dotenv from 'dotenv';
 import { CliServerConfig } from '@refract-cms/cli';
 
-let env;
-
-if (process.env.NODE_ENV !== 'production') {
-  env = dotenv.config().parsed;
-} else {
-  const getEnv = () => process.env;
-  env = getEnv();
-}
-
 const serverConfig: CliServerConfig = {
-  mongoConnectionString: env.MONGO_URI,
+  mongoConnectionString: (() => process.env.MONGO_URI)(),
   filesPath: 'files/',
   auth: {
     adminCredentials: {
@@ -20,7 +10,7 @@ const serverConfig: CliServerConfig = {
     },
     jwt: {
       issuer: 'my-app',
-      secret: env.JWT_SECRET
+      secret: process.env.JWT_SECRET
     }
   }
 };
