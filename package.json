@@ -1,22 +1,23 @@
 {
-    "name": "cli-consumer",
-    "version": "1.0.0",
-    "description": "",
-    "private": true,
-    "main": "index.js",
-    "scripts": {
-        "start": "refract-cms start",
-        "build": "refract-cms build",
-        "start:prod": "node ./dist/server.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {},
-    "devDependencies": {
-        "@refract-cms/cli": "0.7.3",
-        "@types/dotenv": "^6.1.1",
-        "dotenv": "^7.0.0",
-        "prettier": "^1.17.0",
-        "prettier-loader": "^2.1.1"
-    }
+  "name": "cli-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "refract-cms start",
+    "build": "refract-cms build",
+    "start:prod": "node ./dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@refract-cms/cli": "0.7.3",
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "prettier": "^1.17.0",
+    "prettier-loader": "^2.1.1"
+  }
 }
