@@ -12,7 +12,7 @@
   },
   "addons": [
     {
-      "plan": "mongolab:sandbox",
+      "plan": "mongolab:shared-single-small",
       "as": "MONGO"
     }
   ]
