@@ -23,3 +23,12 @@ npm start
 | GraphiQL           | <http://localhost:3000/cms/graphql>            |
 | GraphQL Playground | <http://localhost:3000/cms/graphql-playground> |
 | Mongo Express      | <http://localhost:8081>                        |
+
+## Deploy to Heroku
+
+```
+heroku create
+git push heroku master
+heroku ps:scale web=1
+heroku open
+```

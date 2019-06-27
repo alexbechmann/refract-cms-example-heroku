@@ -1,0 +1,19 @@
+{
+  "name": "My Refract-CMS App",
+  "description": "",
+  "keywords": [
+    "refract-cms"
+  ],
+  "env": {
+    "JWT_SECRET": {
+      "description": "A secret key for verifying jwt tokens for this environment.",
+      "generator": "secret"
+    }
+  },
+  "addons": [
+    {
+      "plan": "mongolab:sandbox",
+      "as": "MONGO"
+    }
+  ]
+}
