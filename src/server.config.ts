@@ -1,7 +1,7 @@
 import { CliServerConfig } from '@refract-cms/cli';
 
 const serverConfig: CliServerConfig = {
-  mongoConnectionString: (() => process.env.MONGO_URI)(),
+  mongoConnectionString: process.env.MONGODB_URI,
   filesPath: 'files/',
   auth: {
     adminCredentials: {
