@@ -1,4 +1,4 @@
-# Refract-CMS CLI Example
+# Refract-CMS example on Heroku
 
 ## Deploy to Heroku
 
