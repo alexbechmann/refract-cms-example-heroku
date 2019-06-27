@@ -1,5 +1,7 @@
 # Refract-CMS CLI Example
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Setup docker
 
 Start a mongo process in the background using docker:
