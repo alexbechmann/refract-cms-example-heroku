@@ -15,7 +15,7 @@ https://signup.heroku.com/login
 <https://refract-cms.com/create-schema-config>
 
 **Step 5**:
-Choose one of the following options:
+Push your updates to Heroku using one of the following techniques:
 
 a) Follow the git deployment guide: <https://devcenter.heroku.com/articles/git>
 
