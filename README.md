@@ -3,7 +3,7 @@
 ## Deploy to Heroku
 
 **Step 1**: Create a heroku account
-https://signup.heroku.com/login
+<https://signup.heroku.com/>
 
 **Step 2**: Fork this repository to your own account
 
