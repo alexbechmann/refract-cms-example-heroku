@@ -2,19 +2,19 @@
 
 ## Deploy to Heroku
 
-Step 1: Create a heroku account
+**Step 1**: Create a heroku account
 https://signup.heroku.com/login
 
-Step 2: Fork this repo to your own account
+**Step 2**: Fork this repo to your own account
 
-Step 3: Use the deploy button to create your project with MLab MongoDB addon (default free tier).
+**Step 3**: Use the deploy button to create your project with MLab MongoDB addon (default free tier).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-Step 4: Clone your repository & update your schema in your favourite code editor.
+**Step 4**: Clone your repository & update your schema in your favourite code editor.
 <https://refract-cms.com/create-schema-config>
 
-Step 5:
+**Step 5**:
 Choose one of the following options:
 
 a) Follow the git deployment guide: <https://devcenter.heroku.com/articles/git>
